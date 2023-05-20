@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>計算BMI</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="sub-title title">BMI計算</div>
+        <form action="">
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="height">身高</label>
+            <input type="number" id="height" name="height"><br>
+            <label for="weight">體重</label>
+            <input type="number" id="weight" name="weight">
+            <p>
+                <button type="button" onclick="calc()">計算</button>
+                <button type="reset">清除</button>
+            </p>
+            <p>
+                BMI<span class="bmi"></span>
+            </p>
+        </form>
+        <p>
+            <b>
+                <a href="index.html">回首頁</a>
+            </b>
+        </p>
+    </div>
+    <script src="./js/bmi.js"></script>
+</body>
+
+</html>
